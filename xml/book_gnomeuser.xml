@@ -56,9 +56,10 @@
   <xi:include href="gnome_networking.xml"/>
   <xi:include href="gnome_print.xml"/>
   <xi:include href="backup.xml"/>
+  <xi:include href="gnome_crypto.xml"/>
  </part>
 <!-- ===================================================================== -->
-<!-- Part: OpenOffice.org                                                  -->
+<!-- Part: LibreOffice.org                                                  -->
 <!-- ===================================================================== -->
  <part xml:id="part.ooo">
   <title>&ooo;</title>
@@ -69,26 +70,11 @@
   <xi:include href="apps_librevarious.xml"/>
  </part>
 <!-- ===================================================================== -->
-<!-- Part: Information Management                                          -->
-<!-- ===================================================================== -->
- <part xml:id="part.management">
-<!--<xi:include href="apps_groupwise.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>-->
-<!--not present-->
-<!--<xi:include href="apps_tomboy.xml"  xmlns:xi="http://www.w3.org/2001/XInclude"/>-->
-<!--not present-->
-  <title>Information Management</title>
-  <xi:include href="apps_evolution.xml"/>
-<!--<xi:include href="apps_groupwise.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>-->
-<!--not present-->
-  <xi:include href="gnome_crypto.xml"/>
-<!--<xi:include href="apps_tomboy.xml"  xmlns:xi="http://www.w3.org/2001/XInclude"/>-->
-<!--not present-->
- </part>
-<!-- ===================================================================== -->
 <!-- Part: Communication & Collaboration                                    -->
 <!-- ===================================================================== -->
  <part xml:id="part.communication">
   <title>Communication and Collaboration</title>
+  <xi:include href="apps_evolution.xml"/>
   <xi:include href="apps_pidgin.xml"/>
   <xi:include href="apps_ekiga.xml"/>
  </part>
@@ -101,27 +87,17 @@
   <xi:include href="apps_gftp.xml"/>
  </part>
 <!-- ===================================================================== -->
-<!-- Part: Graphics                                                        -->
+<!-- Part: Graphics and Multimedia                                         -->
 <!-- ===================================================================== -->
  <part xml:id="part.graphics">
 <!--<xi:include href="apps_fspot.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>-->
 <!--not present-->
-  <title>Graphics</title>
+  <title>Graphics and Multimedia</title>
   <xi:include href="apps_gimp.xml"/>
-<!--<xi:include href="apps_fspot.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>-->
-<!--not present-->
- </part>
-<!-- ===================================================================== -->
-<!-- Part: Multimedia                                                      -->
-<!-- ===================================================================== -->
- <part xml:id="part.multimedia">
-<!--<xi:include href="apps_banshee.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>-->
-<!--not present-->
-  <title>Multimedia</title>
-<!--<xi:include href="apps_banshee.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>-->
-<!--not present-->
   <xi:include href="apps_totem.xml"/>
   <xi:include href="apps_brasero.xml"/>
+<!--<xi:include href="apps_fspot.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>-->
+<!--not present-->
  </part>
 <!-- ===================================================================== -->
 <!-- Appendix                                                              -->
