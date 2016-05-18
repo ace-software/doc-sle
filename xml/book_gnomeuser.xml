@@ -48,7 +48,7 @@
   <xi:include href="gnome_accessibility.xml"/>
  </part>
 <!-- ===================================================================== -->
-<!-- Part:  Internet Connectivity, Files and Resources                     -->
+<!-- Part:  Connectivity, Files and Resources                     -->
 <!-- ===================================================================== -->
  <part xml:id="part.gnome.manage">
   <title>Connectivity, Files and Resources</title>
@@ -57,6 +57,7 @@
   <xi:include href="gnome_print.xml"/>
   <xi:include href="backup.xml"/>
   <xi:include href="gnome_crypto.xml"/>
+  <xi:include href="apps_gftp.xml"/>
  </part>
 <!-- ===================================================================== -->
 <!-- Part: LibreOffice.org                                                  -->
@@ -70,21 +71,14 @@
   <xi:include href="apps_librevarious.xml"/>
  </part>
 <!-- ===================================================================== -->
-<!-- Part: Communication & Collaboration                                    -->
+<!-- Part: Internet, Communication & Collaboration                                    -->
 <!-- ===================================================================== -->
  <part xml:id="part.communication">
-  <title>Communication and Collaboration</title>
+  <title>Internet, Communication and Collaboration</title>
+  <xi:include href="apps_firefox.xml"/>
   <xi:include href="apps_evolution.xml"/>
   <xi:include href="apps_pidgin.xml"/>
   <xi:include href="apps_ekiga.xml"/>
- </part>
-<!-- ===================================================================== -->
-<!-- Part: Internet                                                        -->
-<!-- ===================================================================== -->
- <part xml:id="part.internet">
-  <title>Internet</title>
-  <xi:include href="apps_firefox.xml"/>
-  <xi:include href="apps_gftp.xml"/>
  </part>
 <!-- ===================================================================== -->
 <!-- Part: Graphics and Multimedia                                         -->
