@@ -85,7 +85,10 @@
     <term>Menu</term>
     <listitem>
      <para>
-      The menu is the last icon on the toolbar, labeled with a cog wheel icon.
+      The menu is the last icon on the toolbar. 
+      <!--taroth 2016-05-24: commenting because either the menu icon is deprecated
+       or it has changed (there is a list icon which has some functions described
+       below but notall of them): labeled with a cog wheel icon.-->
       It lets you perform many tasks, such as opening the preferences dialog,
       creating a new directory or opening a new window or tab.
      </para>
@@ -110,8 +113,9 @@
      <para>
       Use the icons in the top right part of the window to switch between list
       and grid icon view.
-      The menu to the right of these icons can be used to further customize
-      the view.
+      <!--taroth 2016-05-24: commenting because I could no longer find those options
+       as the menu icons probably disappeared: The menu to the right of these
+       icons can be used to further customize the view.-->
      </para>
     </listitem>
    </varlistentry>
@@ -499,7 +503,7 @@
     </step>
     <step>
      <para>
-      Click the cog wheel icon, then select
+      Click the list<!--cog wheel--> icon, then select
       <guimenu>Bookmark this Location</guimenu> from the menu.
      </para>
      <para>
@@ -529,16 +533,17 @@
    </para>
   </sect2>
 
-  <sect2 xml:id="sec.gnomeuser.use.nautilus.prefs">
+  <!--taroth 2016-05-24: could not find those with Beta 1...
+   <sect2 xml:id="sec.gnomeuser.use.nautilus.prefs">
    <title>File Manager Preferences</title>
    <para>
     Open the file manager preferences by clicking the cog wheel icon
     and selecting <guimenu>Preferences</guimenu>.
-<!--For more information, see
+<!-\-For more information, see
     <xref linkend="sec.gnome.settings.look.filemanpref"
-     xrefstyle="SectTitleOnPage"/>.-->
+     xrefstyle="SectTitleOnPage"/>.-\->
    </para>
-  </sect2>
+  </sect2>-->
 
   <sect2 xml:id="sec.gnomeuser.use.network">
    <title>Accessing Remote Files</title>
@@ -579,10 +584,19 @@
     the drive may not be finished with a previous operation.
    </para>
    <para>
+    In the sidebar of &nautilus;, click the Eject icon next to the medium
+    to safely remove or unmount the drive.
+   </para>
+   <!--
+   taroth 2016-05-24: did not find any possibility to unmount or eject the
+   medium from the desktop and also the context-menu in Nautilus was not available
+   with Beta 1
+   -->
+   <!--<para>
     On the desktop or in the sidebar of &nautilus;, right-click the icon for
     the medium and select <guimenu>Safely Remove Drive</guimenu> or
     <guimenu>Unmount</guimenu>.
-   </para>
+   </para>-->
   </warning>
  </sect1>
  <sect1 xml:id="sec.gnomeuser.use.search.files">
