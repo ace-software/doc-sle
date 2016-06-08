@@ -848,11 +848,6 @@
 
   <sect2 xml:id="sec.gnomeuser.use.archives.open">
    <title>Opening an Archive</title>
-   <para>
-    <remark>taroth 2016-05-25: FIXME: part of this does not longer work, e.g.
-     I cannot find a an 'Open' menu in archive manager etc. - check with next
-     beta!</remark>
-   </para>
    <procedure>
     <step>
      <para>
@@ -882,12 +877,17 @@
         The archive contents in the content area.
        </para>
       </listitem>
-      <listitem>
+      <!--
+       taroth 2016-02-08: this does no longer seem to be the case
+      -->
+      <!--
+       <listitem>
        <para>
         The total number of files in the archive and the size of the archive
         when uncompressed, in the statusbar.
        </para>
       </listitem>
+      -->
      </itemizedlist>
      <para>
       To open another archive, click <guimenu>Open</guimenu> again. Archive
@@ -900,6 +900,13 @@
       If you try to open an archive that was created in a format that
       Archive Manager does not recognize, the application displays an error
       message.
+     </para>
+    </step>
+    <step>
+     <para>
+      To display the archive's properties, click the last icon in the titlebar
+      and select <guimenu>Properties</guimenu>. Details like name, location, type,
+      last modification, number of files, size and compression ratio are shown.
      </para>
     </step>
    </procedure>
@@ -1061,9 +1068,9 @@
    <title>Creating Archives</title>
    <procedure>
     <step>
-     <para><remark>taroth 2016-05-25: FIXME: could not find this icon</remark>
-      In Archive Manager, click the white icon in the top left part of the
-      window.
+     <para>
+      In Archive Manager, click the main menu icon in the top left part of the
+      window and select <guimenu>New Archive</guimenu>.
      </para>
     </step>
     <step>
@@ -1147,9 +1154,7 @@
  <sect1 xml:id="sec.gnomeuser.use.pdfs">
   <title>Viewing PDF Files</title>
 
-  <para><remark>taroth 2016-05-25: FIXME: check this section with next Beta as
-   Evince is not fully functional yet
-   (http://bugzilla.suse.com/show_bug.cgi?id=981414)</remark>
+  <para>
    Documents that need to be shared or printed across platforms can be saved
    as PDF (Portable Document Format) files.
    Document Viewer (also known as Evince) can open PDF files and many
@@ -1162,7 +1167,7 @@
     Document Viewer.
     This can happen, for example, with certain forms, animations or 3D images.
     In such cases, ask the authors of the file what viewer they recommend.
-    However, in at least some cases the recommended viewer will not work on
+    However, in some cases the recommended viewer will not work on
     Linux.
    </para>
   </note>
