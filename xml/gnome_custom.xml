@@ -333,10 +333,6 @@
 
   <sect2 xml:id="sec.gnome.settings.hardware.power">
    <title>Configuring Power Settings</title>
-   <para>
-    <remark>taroth 2016-05-25: FIXME - should probably check this on a laptop
-    </remark>
-   </para>
    <procedure>
     <step>
      <para>
@@ -362,7 +358,7 @@
     </step>
     <step>
      <para>
-      In the <guimenu>Suspend and Power Off</guimenu> section of the dialog,
+      In the <guimenu>Suspend and Power Button</guimenu> section of the dialog,
       set the <guimenu>Automatic Suspend</guimenu>. When you click it, a
       separate dialog opens.
      </para>
@@ -372,11 +368,10 @@
       for computer running on battery power or plugged in.
      </para>
      <para>
-      You can also set the action performed when the battery power is critical.
-      Choose <guimenu>Hibernation</guimenu> to use a mode where the computer
+      You can also set the action performed when the power button is pressed.
+      Choose <guimenu>Hibernate</guimenu> to use a mode where the computer
       turns off completely but saves your running session to the hard disk.
-      Alternatively, choose <guimenu>Power Off</guimenu> to turn the computer
-      off without saving the session.
+      Alternatively, choose <guimenu>Suspend</guimenu> or <guimenu>Nothing</guimenu>.
      </para>
     </step>
    </procedure>
