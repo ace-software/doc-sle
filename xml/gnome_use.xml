@@ -689,25 +689,17 @@
 
  <sect1 xml:id="sec.gnomeuser.use.connections">
   <title>Managing Internet Connections</title>
-
-  <remark>Unclear target audience ... this sounds like it is written
-   for admins, but the guide is otherwise mostly written for desktop users.
-   - sknorr, 2015-09-15
-  </remark>
-
   <para>
-   To surf the Internet or send and receive e-mail messages, you must have
-   configured an Internet connection with &yast;. Depending on your
-   environment, in &yast; select whether to use &nm;. In &gnome;,
-   you can then establish Internet connections with &nm; as
-   described in <xref linkend="sec.nm.configure"/>.
+   To surf the Web or send and receive e-mail messages, you must have
+   configured an Internet connection. If you have installed &productname; on a
+   laptop or a mobile device, &nm; is enabled by default. On the &gnome; desktop,
+   you can then establish Internet connections with &nm; as described in
+   <xref linkend="sec.nm.configure"/>.
   </para>
 
-  <para>
-   <remark>taroth 2016-05-25: not sure if we need this para any longer...
-   FIXME: check the usecases section</remark>
-   For a list of criteria to help you decide whether to use &nm;,
-   refer to <xref linkend="sec.nm.usecase"/>.
+  <para>Depending on your environment, you can choose in &yast; which basic
+   service to use for setting up network connections (either &nm; or wicked).
+   For details, see <xref linkend="sec.basicnet.yast.netcard.global"/>.
   </para>
  </sect1>
  <sect1 xml:id="sec.gnomeuser.use.internet">
